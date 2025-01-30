@@ -14,7 +14,7 @@ For every additional unit of a string (a character), our algorithm grows linearl
 
 ### **Quick Trick:** Where do you loop over the input?
 
-![Loop Example](image-1.png)
+![Loop Example](./assets/image-1.png)
 
 **Is it O(2N) because of 2 for loops?** No.
 - **Rule:** You always drop constants.
@@ -30,7 +30,7 @@ For every additional unit of a string (a character), our algorithm grows linearl
   - \(100N\) vs \(N^2\) for small datasets.
 
 ### **Worst Case Analysis**
-![Worst Case Example](image-2.png)
+![Worst Case Example](./assets/image-2.png)
 
 In Big O, we consider the **worst-case** scenario:
 - Even if the algorithm terminates early, we assume the worst case.
@@ -41,15 +41,15 @@ In Big O, we consider the **worst-case** scenario:
 
 ## 3. Common Complexities
 
-![Complexities Table](image-3.png)
+![Complexities Table](./assets/image-3.png)
 
 ### **Examples of Complexity Classes:**
 
 #### **O(N^2) Complexity**
-![O(N^2) Example](image-4.png)
+![O(N^2) Example](./assets/image-4.png)
 
 #### **O(N^3) Complexity**
-![O(N^3) Example](image-5.png)
+![O(N^3) Example](./assets/image-5.png)
 
 #### **O(n log n) Complexity**
 - **Example:** Quicksort
