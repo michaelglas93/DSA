@@ -20,7 +20,7 @@ This means that accessing an element at a certain index is a **constant time ope
 
 Arrays rely on **bitwise offsetting** to determine where an element is stored in memory. The size of each element affects how far apart indices are stored.
 
-![Memory Layout](image.png)
+![Memory Layout](./assets/array_1.png)
 
 ---
 
