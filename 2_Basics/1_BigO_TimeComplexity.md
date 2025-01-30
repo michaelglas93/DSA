@@ -6,7 +6,7 @@ https://frontendmasters.com/courses/algorithms/big-o-time-complexity/
 
 > **"As your input grows, how fast does computation or memory grow?"**
 
-![Big O Growth](image.png)
+![Big O Growth](./assets/image.png)
 
 For every additional unit of a string (a character), our algorithm grows linearly.
 - Example: A 50% bigger string results in a 50% bigger algorithm.
