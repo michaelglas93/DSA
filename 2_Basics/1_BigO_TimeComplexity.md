@@ -60,9 +60,5 @@ In Big O, we consider the **worst-case** scenario:
 #### **Rarely Seen Complexity:**
 - \(O(\sqrt{n})\) (Only once seen)
 
----
 
-This document provides a clear understanding of Big O notation, covering fundamental principles and common complexities.
-
-To maintain image references in your Markdown file, ensure that the image files are present in the same directory as the `.md` file or use absolute URLs if hosted online.
 
