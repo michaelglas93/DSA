@@ -20,7 +20,5 @@ You can find an implementation of **Linear Search** in the following file:
 
 📂 **[LinearSearchList.ts](../kata-machine/src/day1/LinearSearchList.ts)**
 
----
 
-This document serves as an introduction to **search algorithms** in JavaScript with a focus on **linear search**. Future sections will cover more advanced search techniques.
 
