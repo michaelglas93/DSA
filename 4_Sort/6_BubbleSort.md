@@ -71,4 +71,4 @@ Bubble Sort is easy to understand but inefficient compared to other sorting algo
 
 ## Implementation
 
-📂 **[TwoCrystalBalls.ts](../kata-machine/src/day1/BubbleSort.ts)**
+📂 **[BubbleSort.ts](../kata-machine/src/day1/BubbleSort.ts)**
