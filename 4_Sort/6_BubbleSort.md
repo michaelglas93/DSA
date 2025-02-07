@@ -68,3 +68,7 @@ Thus, Bubble Sort has a worst-case and average-case time complexity of **O(N^2)*
 
 ## Conclusion
 Bubble Sort is easy to understand but inefficient compared to other sorting algorithms like Merge Sort or Quick Sort. It is primarily useful for educational purposes or when working with small datasets.
+
+## Implementation
+
+📂 **[TwoCrystalBalls.ts](../kata-machine/src/day1/BubbleSort.ts)**
