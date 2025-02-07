@@ -22,31 +22,31 @@ Bubble Sort follows these steps:
 
 #### **Pass 1:**
 ```
-[1, 3, 7, 4, 2]  \rightarrow \text{Compare } 1 \text{ and } 3 \text{ (no swap)}
-[1, 3, 7, 4, 2]  \rightarrow \text{Compare } 3 \text{ and } 7 \text{ (no swap)}
-[1, 3, 4, 7, 2]  \rightarrow \text{Compare } 7 \text{ and } 4 \text{ (swap)}
-[1, 3, 4, 2, 7]  \rightarrow \text{Compare } 7 \text{ and } 2 \text{ (swap)}
+[1, 3, 7, 4, 2]  → Compare 1 and 3 (no swap)
+[1, 3, 7, 4, 2]  → Compare 3 and 7 (no swap)
+[1, 3, 4, 7, 2]  → Compare 7 and 4 (swap)
+[1, 3, 4, 2, 7]  → Compare 7 and 2 (swap)
 ```
 **Largest element 7 is now sorted at the last position.**
 
 #### **Pass 2:** (Ignoring last element)
 ```
-[1, 3, 4, 2, 7]  \rightarrow \text{Compare } 1 \text{ and } 3 \text{ (no swap)}
-[1, 3, 4, 2, 7]  \rightarrow \text{Compare } 3 \text{ and } 4 \text{ (no swap)}
-[1, 3, 2, 4, 7]  \rightarrow \text{Compare } 4 \text{ and } 2 \text{ (swap)}
+[1, 3, 4, 2, 7]  → Compare 1 and 3 (no swap)
+[1, 3, 4, 2, 7]  → Compare 3 and 4 (no swap)
+[1, 3, 2, 4, 7]  → Compare 4 and 2 (swap)
 ```
 **Second largest element 4 is now sorted.**
 
 #### **Pass 3:**
 ```
-[1, 3, 2, 4, 7]  \rightarrow \text{Compare } 1 \text{ and } 3 \text{ (no swap)}
-[1, 2, 3, 4, 7]  \rightarrow \text{Compare } 3 \text{ and } 2 \text{ (swap)}
+[1, 3, 2, 4, 7]  → Compare 1 and 3 (no swap)
+[1, 2, 3, 4, 7]  → Compare 3 and 2 (swap)
 ```
 **Third largest element 3 is now sorted.**
 
 #### **Pass 4:**
 ```
-[1, 2, 3, 4, 7]  \rightarrow \text{Compare } 1 \text{ and } 2 \text{ (no swap)}
+[1, 2, 3, 4, 7]  → Compare 1 and 2 (no swap)
 ```
 **Sorting is complete!**
 
@@ -54,24 +54,17 @@ Bubble Sort follows these steps:
 
 Bubble Sort performs **N-1** comparisons in the first iteration, **N-2** in the second, and so on, until only one element remains. The total number of comparisons is:
 
-\[
-N + (N-1) + (N-2) + \dots + 1
-\]
+$$N + (N-1) + (N-2) + \dots + 1$$
 
 Using the formula for the sum of the first N natural numbers:
 
-\[
-\frac{N(N+1)}{2}
-\]
+$$\frac{N(N+1)}{2}$$
 
 For Big-O notation, we drop constants and lower order terms:
 
-\[
-O(N^2)
-\]
+$$O(N^2)$$
 
 Thus, Bubble Sort has a worst-case and average-case time complexity of **O(N^2)**, making it inefficient for large datasets.
 
 ## Conclusion
 Bubble Sort is easy to understand but inefficient compared to other sorting algorithms like Merge Sort or Quick Sort. It is primarily useful for educational purposes or when working with small datasets.
-
